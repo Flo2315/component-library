@@ -23,6 +23,13 @@
           :fields="field.fields || []"
           v-bind="field.attr"
         />
+
+        <lc-radio-group
+          v-if="field.inputType === 'radio' && !field.hidden"
+          v-model="field.model"
+          :options="field.options || []"
+          v-bind="field.attr"
+        />
       </div>
 
       <slot name="before-submit-button" />
@@ -67,6 +74,7 @@ import { FieldClassContainer, FormValues } from '../types/LcForm'
 import LcButton from './LcButton/LcButton.vue'
 import LcCheckbox from './LcCheckbox.vue'
 import LcInput from './LcInput.vue'
+import { LcRadioGroup } from './LcRadio/'
 
 configure({
   generateMessage: localize({
@@ -87,6 +95,7 @@ export default defineComponent({
     LcButton,
     LcCheckbox,
     LcInput,
+    LcRadioGroup,
     vForm,
   },
   props: {
