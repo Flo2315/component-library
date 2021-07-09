@@ -1,13 +1,13 @@
-import LcButton from './components/LcButton/LcButton.vue'
-import LcCheckbox from './components/LcCheckbox.vue'
-import LcForm from './components/LcForm.vue'
-import LcIcon from './components/LcIcon.vue'
-import LcInput from './components/LcInput.vue'
-import LcModal from './components/LcModal.vue'
+import LcButton from './components/LcButton'
+import LcCheckbox from './components/LcCheckbox'
+import LcForm from './components/LcForm'
+import LcIcon from './components/LcIcon'
+import LcInput from './components/LcInput'
+import LcModal from './components/LcModal'
 import LcMultiselect from './components/LcMultiselect'
-import LcPagination from './components/LcPagination.vue'
-import LcTable from './components/LcTable.vue'
-import LcTooltip from './components/LcTooltip.vue'
+import LcPagination from './components/LcPagination'
+import LcTable from './components/LcTable'
+import LcTooltip from './components/LcTooltip'
 
 export {
   LcButton,

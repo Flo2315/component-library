@@ -67,12 +67,12 @@ import { required, email, min, numeric, min_value, max_value } from '@vee-valida
 import { localize } from '@vee-validate/i18n'
 import fr from '@vee-validate/i18n/dist/locale/fr.json'
 
-import { FieldClassContainer, FormValues } from '../types/LcForm'
+import { FieldClassContainer, FormValues } from '../../types/LcForm'
 
-import LcButton from './LcButton/LcButton.vue'
-import LcMultiselect from './LcMultiselect/LcMultiselect.vue'
-import LcCheckbox from './LcCheckbox.vue'
-import LcInput from './LcInput.vue'
+import LcButton from '../LcButton'
+import LcMultiselect from '../LcMultiselect'
+import LcCheckbox from '../LcCheckbox'
+import LcInput from '../LcInput'
 
 configure({
   generateMessage: localize({
