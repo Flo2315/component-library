@@ -2,7 +2,7 @@ import LcButton from '../LcButton'
 import LcAccordion from './LcAccordion'
 
 export default {
-  title: 'Example/LcCollapse',
+  title: 'Example/LcAccordion',
   component: LcAccordion,
 }
 

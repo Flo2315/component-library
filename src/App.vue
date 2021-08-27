@@ -1,5 +1,7 @@
 <template>
-  <div>Import your component</div>
+  <div style="height:500px">
+    Import your component
+  </div>
   <lc-accordion
     v-model="open"
     title="1. Informations maison"
