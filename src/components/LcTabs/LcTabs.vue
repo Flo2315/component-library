@@ -86,7 +86,7 @@ export default defineComponent({
 }
 
 .lc-tabs-navigation {
-  @apply h-full flex-1 flex gap-x-8;
+  @apply h-full flex-1 flex gap-x-8 list-none m-0 p-0;
 }
 
 .lc-tabs-link {

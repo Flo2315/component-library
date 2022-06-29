@@ -129,7 +129,7 @@ export default defineComponent({
   @apply bg-gray-600 border border-gray-600;
 }
 .lc_tooltip-content--white {
-  @apply bg-white border border-gray-400 text-gray-700 shadow-sm;
+  @apply bg-white border border-solid border-gray-400 text-gray-700 shadow-sm;
 }
 .lc_tooltip--appear .lc_tooltip-content--absolute,
 .lc_tooltip--hover:hover .lc_tooltip-content--absolute {
