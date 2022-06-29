@@ -32,7 +32,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 
-import LcIcon from '../LcIcon'
+import LcIcon from '../LcIcon/index'
 import { vPosition, vVariant, vSize } from './validators/LcTooltip'
 
 export default defineComponent({
